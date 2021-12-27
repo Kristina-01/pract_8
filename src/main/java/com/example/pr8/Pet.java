@@ -75,5 +75,9 @@ public class Pet {
         vaccines.add(newv);
     }
 
+    public String toString() {
+        return number + ". " + nickname;
+    }
+
 
 }
